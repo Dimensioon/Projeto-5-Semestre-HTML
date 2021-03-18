@@ -1,0 +1,17 @@
+#menu{
+	padding: 15px;
+	background:#FFD700;
+	border: 3px solid black;
+}
+
+body{
+	font-size: 20px;
+}
+
+a{
+	font-size: 2em;
+	color: #4F4F4F;
+	text-decoration: none;
+	font-weight: bold;
+	padding: 80px;
+}	
