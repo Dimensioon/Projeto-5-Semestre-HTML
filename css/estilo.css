@@ -6,6 +6,7 @@
 *{
 	margin: 0px;
 	padding: 0px;
+	clear: both;
 }
 
 body{
@@ -16,6 +17,7 @@ body{
 
 #fundo{
 	background-image: url(image/jogos.jpg);
+	clear: both;
 }
 
 /* Fim Formatação Body */
@@ -52,6 +54,48 @@ a{
 }
 
 /* Fim Formatação do Menu */
+
+/* Formatação Body */
+
+/* Manutenção */
+
+.manutencao{
+	width: 900px;
+	margin: 257px auto;
+	background: #fff;
+	border: 5px solid black;
+	text-align: center;
+	font-size: 1.1em;
+	padding: 15px;
+	clear: both;
+}
+
+/* Fim Manutenção */
+
+#principal{
+	width: 1500px;
+	margin: 5px auto;
+	padding: 15px;
+}
+
+#conteudo1{
+	width: 400px;
+	float: left;
+} 
+
+#conteudo2{
+	width: 400px;
+	float: right;
+}
+
+.post img{
+	/*	border: 1px solid red;*/
+	width: 100px;
+
+}
+
+
+/* Fim Formatação Body */
 
 /* Formatação Rodapé */
 
