@@ -16,7 +16,7 @@ body{
 }
 
 #fundo{
-	background-image: url(image/jogos.jpg);
+	background: url(../image/jogos.jpg);
 	clear: both;
 }
 
@@ -52,6 +52,21 @@ a{
 	color: #fff;
 	background-color: #000;	
 }
+
+span.menu{
+	color: #000;
+	padding: 8px 12px;
+}
+
+span.menu:hover{
+	color: #fff;
+	background-color: #000;	
+}
+
+
+/* Formatação SubMenu */
+
+
 
 /* Fim Formatação do Menu */
 
