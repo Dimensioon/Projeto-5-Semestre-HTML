@@ -6,7 +6,6 @@
 *{
 	margin: 0px;
 	padding: 0px;
-	clear: both;
 }
 
 body{
@@ -17,7 +16,6 @@ body{
 
 #fundo{
 	background: url(../image/jogos.jpg);
-	clear: both;
 }
 
 /* Fim Formatação Body */
@@ -29,44 +27,44 @@ body{
 	border: 5px solid black;
 	padding: 15px;
 	text-align: center;
-}
-
-#logo, #menu{
-	padding: 10px;
+	height: 9.5em; 
 }
 
 /* Fim Cabeçalho */
 
 /* Formatação do Menu */
 
-a{
+ul{	
+	margin: 0px auto;
+	padding: 0px;
+	list-style: none;
+	width: 553px;
+}
+
+ul li{
+	float: left;
+}
+
+li a{
+	display: block;
+	padding: 0 2em;
+	line-height: 3em;
 	text-decoration: none;
-}
-
-#cabecalho a:link, #cabecalho a:visited{
 	color: #000;
-	padding: 8px 12px;
+	background: #fff;
 }
 
-#cabecalho a:hover{
+li a:hover{
 	color: #fff;
-	background-color: #000;	
+	background: #000;	
 }
 
-span.menu{
-	color: #000;
-	padding: 8px 12px;
-}
+/* Formatação Marcado */
 
-span.menu:hover{
+	#marcado{
 	color: #fff;
-	background-color: #000;	
-}
-
-
-/* Formatação SubMenu */
-
-
+	background: #000;	
+	}
 
 /* Fim Formatação do Menu */
 
@@ -88,25 +86,28 @@ span.menu:hover{
 /* Fim Manutenção */
 
 #principal{
-	width: 1500px;
-	margin: 5px auto;
-	padding: 15px;
+	margin: 3em 20em;
+	clear: both;
+	background: #fff;
 }
 
-#conteudo1{
-	width: 400px;
+.conteudo1{
 	float: left;
+	border: 5px solid black;
+	background: #fff;
+	text-align: center;
 } 
 
-#conteudo2{
-	width: 400px;
+.conteudo2{
 	float: right;
+	border: 5px solid black;
+	background: #fff;
+	text-align: center;
 }
 
 .post img{
 	/*	border: 1px solid red;*/
 	width: 100px;
-
 }
 
 
@@ -120,9 +121,10 @@ span.menu:hover{
 }
 
 #rodape{
-	background-color: #fff;
+	background: #fff;
 	border: 5px solid black;
 	text-align: center;
+	clear: both;
 }
 
 .rodape-text{
